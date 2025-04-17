@@ -7,13 +7,16 @@ This is a template for modding STORROR Parkour Pro main open-world map. It has a
 * Open `StorrorParkourPro.uproject` with Unreal Editor
 * Remove the example blockout and build your own
 
-## Creating The Patch Files
+## Exporting The Mod
 * Create `Build` folder inside the project folder
 * In Unreal Editor, click Platforms -> Windows -> Package Project
 * Select `Build` folder for packaged project
 
-## Applying The Patch Files
+## Applying The Mod
 * Go to `Build\Windows\StorrorParkourPro\Content\Paks\` folder inside your project folder
-* Copy `pakchunk4564-Windows.*` files to `C:\Program Files (x86)\Steam\steamapps\common\STORROR Parkour Pro\STORRORParkourPRO\Content\Paks`
-* Rename `pakchunk4564-Windows.*` files to `pakchunk4564-Windows_P.*`
+* Copy `pakchunk4564-Windows.*` files to game's `STORRORParkourPRO\Content\Paks` folder, it's in `C:\Program Files (x86)\Steam\steamapps\common\STORROR Parkour Pro\` when installed on Steam
+* Rename `pakchunk4564-Windows.*` files to `YourModName_P.*` (`_P` suffix is important)
 * Play the game with your own map
+
+## Distributing The Mod
+* Compress those `YourModName_P.*` files (pak, ucas, utoc) into a zip file
