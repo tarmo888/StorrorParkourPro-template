@@ -8,9 +8,8 @@ This is a template for modding STORROR Parkour Pro main open-world map. It has a
 * Remove the example blockout and build your own
 
 ## Exporting The Mod
-* Create `Build` folder inside the project folder
 * In Unreal Editor, click Platforms -> Windows -> Package Project
-* Select `Build` folder for packaged project
+* Select `Build` folder inside the project folder
 
 ## Applying The Mod
 * Go to `Build\Windows\StorrorParkourPro\Content\Paks\` folder inside your project folder
